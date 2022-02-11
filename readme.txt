@@ -1039,9 +1039,16 @@ You should see the test results print out culminating in a summary:
 
 = 2.2.0 (2022-02-10): =
 * Updated readme file, updated code to make it compatible with 5.9 version of WordPress and updated code to make it compatible with 8 version of PHP
+* Add get menu and add get list menu
+* Fix ABSPATH usage.
+* Add previous_post_title and next_post_title properties to the get_post response object.
+* Added query params support
+* Added meta data and date settings at post creation
+* Users & Multisites Controllers
 
 = 2.0.0 (2019-08-15): =
 * Updated readme file, updated code to make it compatible with 5.2.2 version of WordPress
+* Correct headers update
 
 = 1.1.1 (2013-06-23): =
 * Added support for custom taxonomies
